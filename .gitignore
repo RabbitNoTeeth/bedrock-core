@@ -1,0 +1,35 @@
+### maven ###
+dependency-reduced-pom.xml
+
+### gradle ###
+.gradle
+
+### vertx ###
+.vertx
+file-uploads
+
+### class ###
+out
+bin
+target
+build
+
+### idea ###
+.idea
+*.iml
+
+### log ###
+logs
+*.log
+
+### mac ###
+*.DS_Store
+
+### vue ###
+dist
+src/main/resources/web
+node_modules/
+package-lock.json
+tests/
+
+school_logo
