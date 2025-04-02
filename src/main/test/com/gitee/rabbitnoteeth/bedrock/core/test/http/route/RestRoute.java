@@ -1,6 +1,5 @@
 package com.gitee.rabbitnoteeth.bedrock.core.test.http.route;
 
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.annotation.*;
 import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.HttpContext;
 import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestBody;
 import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestHeaders;
@@ -8,9 +7,9 @@ import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequ
 import com.gitee.rabbitnoteeth.bedrock.core.server.http.route.HttpRestRoute;
 import com.gitee.rabbitnoteeth.bedrock.core.server.http.session.HttpSession;
 import com.gitee.rabbitnoteeth.bedrock.core.test.http.entity.Aaa;
-import com.gitee.rabbitnoteeth.bedrock.util.validation.annotation.Validate;
-import com.gitee.rabbitnoteeth.bedrock.util.validation.annotation.ValidateBean;
-import com.gitee.rabbitnoteeth.bedrock.util.validation.entity.Rule;
+import com.github.rabbitnoteeth.bedrock.util.validation.annotation.Validate;
+import com.github.rabbitnoteeth.bedrock.util.validation.annotation.ValidateBean;
+import com.github.rabbitnoteeth.bedrock.util.validation.entity.Rule;
 
 import java.util.List;
 

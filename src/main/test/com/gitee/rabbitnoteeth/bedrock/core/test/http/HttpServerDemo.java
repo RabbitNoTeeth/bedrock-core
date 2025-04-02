@@ -11,7 +11,7 @@ import com.gitee.rabbitnoteeth.bedrock.core.server.http.route.exception.HttpRout
 import com.gitee.rabbitnoteeth.bedrock.core.server.http.template.TemplateEngine;
 import com.gitee.rabbitnoteeth.bedrock.core.test.http.route.RestRoute;
 import com.gitee.rabbitnoteeth.bedrock.core.test.http.route.TemplateRoute;
-import com.gitee.rabbitnoteeth.bedrock.util.validation.exception.ValidationException;
+import com.github.rabbitnoteeth.bedrock.util.validation.exception.ValidationException;
 import io.vertx.core.DeploymentOptions;
 
 import java.util.ArrayList;

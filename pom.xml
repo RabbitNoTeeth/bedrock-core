@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <groupId>com.gitee.rabbitnoteeth</groupId>
+    <groupId>com.github.rabbitnoteeth</groupId>
     <artifactId>bedrock-core</artifactId>
     <version>1.0.0</version>
 
@@ -88,7 +88,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.gitee.rabbitnoteeth</groupId>
+            <groupId>com.github.rabbitnoteeth</groupId>
             <artifactId>bedrock-util</artifactId>
             <version>${bedrock.version}</version>
         </dependency>

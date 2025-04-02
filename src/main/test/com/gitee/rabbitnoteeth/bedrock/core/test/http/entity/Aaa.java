@@ -1,7 +1,7 @@
 package com.gitee.rabbitnoteeth.bedrock.core.test.http.entity;
 
-import com.gitee.rabbitnoteeth.bedrock.util.validation.annotation.Validate;
-import com.gitee.rabbitnoteeth.bedrock.util.validation.entity.Rule;
+import com.github.rabbitnoteeth.bedrock.util.validation.annotation.Validate;
+import com.github.rabbitnoteeth.bedrock.util.validation.entity.Rule;
 
 import java.util.List;
 
