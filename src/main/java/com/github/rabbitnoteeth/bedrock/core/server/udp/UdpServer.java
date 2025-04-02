@@ -36,7 +36,7 @@ public final class UdpServer extends AbstractServer {
 
     @Override
     public String verticleReference() {
-        return "com.gitee.rabbitnoteeth.bedrock.core.server.udp.UdpServerVerticle";
+        return "com.github.rabbitnoteeth.bedrock.core.server.udp.UdpServerVerticle";
     }
 
 }

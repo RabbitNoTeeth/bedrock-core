@@ -103,6 +103,6 @@ public final class HttpServer extends AbstractServer {
 
     @Override
     public String verticleReference() {
-        return "com.gitee.rabbitnoteeth.bedrock.core.server.http.HttpServerVerticle";
+        return "com.github.rabbitnoteeth.bedrock.core.server.http.HttpServerVerticle";
     }
 }

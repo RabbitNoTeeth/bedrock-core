@@ -1,7 +1,7 @@
-package com.gitee.rabbitnoteeth.bedrock.core.test.udp;
+package com.github.rabbitnoteeth.bedrock.core.test.udp;
 
-import com.gitee.rabbitnoteeth.bedrock.core.server.tcp.handler.TcpServerHandler;
-import com.gitee.rabbitnoteeth.bedrock.core.server.udp.handler.UdpServerHandler;
+import com.github.rabbitnoteeth.bedrock.core.server.tcp.handler.TcpServerHandler;
+import com.github.rabbitnoteeth.bedrock.core.server.udp.handler.UdpServerHandler;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.datagram.DatagramPacket;
 import io.vertx.core.datagram.DatagramSocket;

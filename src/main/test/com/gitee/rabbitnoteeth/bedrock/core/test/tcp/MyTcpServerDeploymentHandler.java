@@ -1,7 +1,7 @@
-package com.gitee.rabbitnoteeth.bedrock.core.test.tcp;
+package com.github.rabbitnoteeth.bedrock.core.test.tcp;
 
-import com.gitee.rabbitnoteeth.bedrock.core.server.base.handler.ServerDeploymentHandler;
-import com.gitee.rabbitnoteeth.bedrock.core.server.tcp.handler.TcpServerHandler;
+import com.github.rabbitnoteeth.bedrock.core.server.base.handler.ServerDeploymentHandler;
+import com.github.rabbitnoteeth.bedrock.core.server.tcp.handler.TcpServerHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,4 +1,4 @@
-package com.gitee.rabbitnoteeth.bedrock.core.test.http.entity;
+package com.github.rabbitnoteeth.bedrock.core.test.http.entity;
 
 import com.github.rabbitnoteeth.bedrock.util.validation.annotation.Validate;
 import com.github.rabbitnoteeth.bedrock.util.validation.entity.Rule;

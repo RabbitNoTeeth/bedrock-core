@@ -36,7 +36,7 @@ public final class TcpServer extends AbstractServer {
 
     @Override
     public String verticleReference() {
-        return "com.gitee.rabbitnoteeth.bedrock.core.server.tcp.TcpServerVerticle";
+        return "com.github.rabbitnoteeth.bedrock.core.server.tcp.TcpServerVerticle";
     }
 
 }

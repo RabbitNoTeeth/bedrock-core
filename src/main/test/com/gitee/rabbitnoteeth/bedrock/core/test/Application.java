@@ -1,6 +1,6 @@
-package com.gitee.rabbitnoteeth.bedrock.core.test;
+package com.github.rabbitnoteeth.bedrock.core.test;
 
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.entity.HttpMethod;
+import com.github.rabbitnoteeth.bedrock.core.server.http.entity.HttpMethod;
 
 public class Application {
 

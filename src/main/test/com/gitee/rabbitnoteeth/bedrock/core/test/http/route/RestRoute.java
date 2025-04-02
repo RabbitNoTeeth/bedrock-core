@@ -1,12 +1,12 @@
-package com.gitee.rabbitnoteeth.bedrock.core.test.http.route;
+package com.github.rabbitnoteeth.bedrock.core.test.http.route;
 
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.HttpContext;
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestBody;
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestHeaders;
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestParams;
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.route.HttpRestRoute;
-import com.gitee.rabbitnoteeth.bedrock.core.server.http.session.HttpSession;
-import com.gitee.rabbitnoteeth.bedrock.core.test.http.entity.Aaa;
+import com.github.rabbitnoteeth.bedrock.core.server.http.context.HttpContext;
+import com.github.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestBody;
+import com.github.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestHeaders;
+import com.github.rabbitnoteeth.bedrock.core.server.http.context.request.HttpRequestParams;
+import com.github.rabbitnoteeth.bedrock.core.server.http.route.HttpRestRoute;
+import com.github.rabbitnoteeth.bedrock.core.server.http.session.HttpSession;
+import com.github.rabbitnoteeth.bedrock.core.test.http.entity.Aaa;
 import com.github.rabbitnoteeth.bedrock.util.validation.annotation.Validate;
 import com.github.rabbitnoteeth.bedrock.util.validation.annotation.ValidateBean;
 import com.github.rabbitnoteeth.bedrock.util.validation.entity.Rule;
