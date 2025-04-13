@@ -29,6 +29,7 @@ public final class HttpServerBuilder extends AbstractServerBuilder<HttpServerBui
     private static final String DEFAULT_TEMPLATE_PATH_PREFIX = "/page";
     private static final String DEFAULT_REST_API_PATH_PREFIX = "/api";
     private static final String DEFAULT_SOCKJS_PATH_PREFIX = "/sockjs";
+    private static final int DEFAULT_IDLE_TIMEOUT = 60;
     private static final Boolean DEFAULT_ALLOW_CORS = false;
     private HttpServerOptions options;
     private String staticResourceDir;
@@ -74,7 +75,7 @@ public final class HttpServerBuilder extends AbstractServerBuilder<HttpServerBui
         }
         if (this.options == null) {
             this.options = new HttpServerOptions()
-                .setIdleTimeout(5)
+                .setIdleTimeout(DEFAULT_IDLE_TIMEOUT)
                 .setMaxFormAttributeSize(-1);
             if (StringUtils.isNotBlank(this.host)) {
                 this.options.setHost(host);
