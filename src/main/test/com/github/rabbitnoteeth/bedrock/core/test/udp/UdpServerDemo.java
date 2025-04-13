@@ -1,13 +1,9 @@
 package com.github.rabbitnoteeth.bedrock.core.test.udp;
 
-import com.github.rabbitnoteeth.bedrock.core.server.tcp.TcpServer;
-import com.github.rabbitnoteeth.bedrock.core.server.tcp.TcpServerBuilder;
 import com.github.rabbitnoteeth.bedrock.core.server.udp.UdpServer;
 import com.github.rabbitnoteeth.bedrock.core.server.udp.UdpServerBuilder;
 import com.github.rabbitnoteeth.bedrock.core.test.tcp.MyTcpServerDeploymentHandler;
-import com.github.rabbitnoteeth.bedrock.core.test.tcp.MyTcpServerHandler;
 import io.vertx.core.datagram.DatagramSocketOptions;
-import io.vertx.core.net.NetServerOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

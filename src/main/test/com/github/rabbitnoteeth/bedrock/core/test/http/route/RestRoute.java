@@ -7,9 +7,7 @@ import com.github.rabbitnoteeth.bedrock.core.server.http.context.request.HttpReq
 import com.github.rabbitnoteeth.bedrock.core.server.http.route.HttpRestRoute;
 import com.github.rabbitnoteeth.bedrock.core.server.http.session.HttpSession;
 import com.github.rabbitnoteeth.bedrock.core.test.http.entity.Aaa;
-import com.github.rabbitnoteeth.bedrock.util.validation.annotation.Validate;
 import com.github.rabbitnoteeth.bedrock.util.validation.annotation.ValidateBean;
-import com.github.rabbitnoteeth.bedrock.util.validation.entity.Rule;
 
 import java.util.List;
 

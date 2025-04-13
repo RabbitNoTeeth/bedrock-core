@@ -4,7 +4,6 @@ import com.github.rabbitnoteeth.bedrock.core.server.http.HttpServer;
 import com.github.rabbitnoteeth.bedrock.core.server.http.HttpServerBuilder;
 import com.github.rabbitnoteeth.bedrock.core.server.http.context.HttpContext;
 import com.github.rabbitnoteeth.bedrock.core.server.http.handler.HttpErrorHandler;
-import com.github.rabbitnoteeth.bedrock.core.server.http.handler.impl.DefaultErrorHandler;
 import com.github.rabbitnoteeth.bedrock.core.server.http.route.HttpRestRoute;
 import com.github.rabbitnoteeth.bedrock.core.server.http.route.HttpTemplateRoute;
 import com.github.rabbitnoteeth.bedrock.core.server.http.route.exception.HttpRouteEndpointException;

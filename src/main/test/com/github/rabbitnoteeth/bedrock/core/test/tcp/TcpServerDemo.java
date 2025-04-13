@@ -2,10 +2,7 @@ package com.github.rabbitnoteeth.bedrock.core.test.tcp;
 
 import com.github.rabbitnoteeth.bedrock.core.server.tcp.TcpServer;
 import com.github.rabbitnoteeth.bedrock.core.server.tcp.TcpServerBuilder;
-import com.github.rabbitnoteeth.bedrock.core.server.tcp.handler.TcpServerHandler;
-import io.vertx.core.buffer.Buffer;
 import io.vertx.core.net.NetServerOptions;
-import io.vertx.core.net.NetSocket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
